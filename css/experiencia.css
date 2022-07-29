@@ -73,12 +73,22 @@
   align-content: start;
 }
 
+.empresa-habilidades li:first-child  {
+  background-color: #67dd0a;
+}
+
 .empresa-habilidades li {
   font-size: 0.875rem;
   line-height: 1.4;
   border-radius: 4px;
-  background: #ffffff;
+  background: #67dd0a;
   padding: 5px 10px;
+}
+
+.link-projeto {
+  font-weight: bold;
+  text-decoration: none;
+  color: #e0e0e0;
 }
 
 @media (max-width: 800px) {
